@@ -3,10 +3,10 @@ function celsiusToFarenheit(tempValue){
     return farenheitValue + " degrees Farenheit";
 }
 
-function FarenheitToCelsius(tempValue){
+function farenheitToCelsius(tempValue){
     var celsiusValue = (tempValue - 32) * (5 / 9);
     return celsiusValue + " degrees Celsius";
 }
 
 console.log(celsiusToFarenheit(0));
-console.log(FarenheitToCelsius(41));
+console.log(farenheitToCelsius(41));
