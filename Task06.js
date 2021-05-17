@@ -1,4 +1,4 @@
-function maximum(numbers){
+function maximum(){
     maxNum=0;
     for (var i=0;i<=arguments.length;i++){
         if(arguments[i]>maxNum){
@@ -7,4 +7,4 @@ function maximum(numbers){
     }
     return maxNum;
 }
-console.log(maximum(21,77,89,32,100));
+console.log(maximum(21,77,89,32,100,102));
